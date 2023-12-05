@@ -44,10 +44,30 @@
 }
 .mini_banner1 {
     width: 200px;
-    margin: 10px auto;
-    border: solid 1px red;
+    margin: 10px 10px;
+
 }
 
 .mini_banner1 img{
-    width: 90%
+    width: 90% 
+}
+
+.pie-de-pagina{
+    background-color:#99CC99;
+    min-height:100px;
+    color: black;
+} 
+
+.derechos {
+    min-height: 100px; 
+    margin: 10px 100px;
+    display:inline-block;
+    width: 400px
+}
+
+.direccion {
+    min-height: 100px; 
+    margin: 10px 100px;
+    display:inline-block;
+    width: 400px
 }
