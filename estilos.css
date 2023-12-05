@@ -1,0 +1,53 @@
+.contenedor_principal {
+    background-color: white
+}
+
+.cabecera{
+    background-color:#99CC99;
+    min-height:100px;
+    color: black;
+}
+
+#logo { 
+    width: 150px;
+}
+.menu {
+    display: flex;
+    align-items:flex-start;
+}
+.menu ul li{
+    list-style: none; 
+    display: inline-block;
+
+}
+
+.nav-link {
+    color: black;
+    font-weight: bold
+}
+
+.nav-link:hover {
+    color: #999999;
+}
+.banner img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+} 
+.banner {
+    width: 100%
+}
+
+.mini_banners {
+    width: 100%;
+}
+.mini_banner1 {
+    width: 200px;
+    margin: 10px auto;
+    border: solid 1px red;
+}
+
+.mini_banner1 img{
+    width: 90%
+}
