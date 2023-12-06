@@ -8,12 +8,14 @@
     color: black;
 }
 
-/*
-.cabecera h1{
-    float: left;
-    margin-left: 50%
+.titulo {
+    width: 100%
 }
-*/
+
+.titulo h1{
+    margin: 0 50%;
+}
+
 
 #logo { 
     width: 150px;
@@ -61,20 +63,19 @@
 
 .pie-de-pagina{
     background-color:#99CC99;
-    min-height:100px;
+    min-height:200px;
     color: black;
+    padding: 20px;
 } 
 
 .derechos {
-    min-height: 100px; 
-    margin: 10px 100px;
-    display:inline-block;
-    width: 400px
+    padding: 20px;
+    width: 50%;
+    float: left;
 }
 
 .direccion {
-    min-height: 100px; 
-    margin: 10px 100px;
-    display:inline-block;
-    width: 400px
+    padding: 20px;
+    width: 50%;
+    float: left;
 }
